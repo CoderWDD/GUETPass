@@ -4,6 +4,13 @@
 		"style": {
 			"navigationBarTitleText": "uni-app"
 		}
+	}, {
+		"path": "pages/HomePage/HomePage",
+		"style": {
+			"navigationBarTitleText": "微信",
+			"enablePullDownRefresh": false
+		}
+
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
