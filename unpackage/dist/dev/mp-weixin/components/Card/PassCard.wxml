@@ -1,0 +1,1 @@
+<view class="container"><text class="time">{{a}}</text><text class="lienceText">桂电学生临时通行证（备案制）</text><text class="nameText">{{b}} 可以通行</text></view>
