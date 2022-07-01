@@ -1,0 +1,24 @@
+
+.container{
+	display: flex;
+	flex-direction: column;
+	background-color: #1E40DDFF;
+	border-radius: 8rpx;
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.lineOne{
+	margin-top: 3%;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+}
+.lineTwo{
+	margin-bottom: 3%;
+	color: white;
+	text-align: center;
+	font-size: 35rpx;
+	font-weight: 500;
+}
+

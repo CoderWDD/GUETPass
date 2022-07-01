@@ -15,9 +15,9 @@
 		"path": "pages/HuaJiangPage/HuaJiangPage",
 		"style": {
 			"navigationBarTitleText": "",
-			"enablePullDownRefresh": false
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
 		}
-
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
