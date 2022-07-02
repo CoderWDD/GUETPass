@@ -1,0 +1,13 @@
+{
+  "hash": "3d97d1e2",
+  "browserHash": "093a8729",
+  "optimized": {
+    "moment": {
+      "src": "../../node_modules/moment/dist/moment.js",
+      "file": "moment.js",
+      "fileHash": "9fd6741b",
+      "needsInterop": true
+    }
+  },
+  "chunks": {}
+}
