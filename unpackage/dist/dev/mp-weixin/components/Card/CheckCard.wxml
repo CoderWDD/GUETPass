@@ -1,1 +1,0 @@
-<view class="container"><text class="firstText">{{a}}</text><image class="iconView" src="{{b}}"></image><text class="secondText">{{c}}</text><text class="thirdText">{{d}}</text></view>
