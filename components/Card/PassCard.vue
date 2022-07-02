@@ -14,7 +14,7 @@
 		],
 		data (){
 			return{
-				time: "asasdd",
+				time: "",
 			}
 		},
 		created() {
@@ -33,10 +33,6 @@
 </script>
 
 <style>
-	
-	@import url('@/pages/HuaJiangPage/PingFangSC_Regular.css');
-	
-	@import url('@/pages/HuaJiangPage/PingFangSC_Heavy.css');
 
 .container{
 	border-radius: 8rpx;
@@ -56,7 +52,6 @@
 	color: #14B710;
 	font-size: 48rpx;
 	font-weight: 400;
-	font-family: PingFangSCHeavy;
 }
 
 .lienceText{
@@ -64,7 +59,6 @@
 	color: #14B710;
 	font-size: 48rpx;
 	font-weight: 700;
-	font-family: PingFangSCHeavy;
 }
 
 .nameText{
@@ -73,6 +67,5 @@
 	color: green;
 	font-size: 40rpx;
 	font-weight: 400;
-	font-family: PingFangSCHeavy;
 }
 </style>

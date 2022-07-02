@@ -1,7 +1,7 @@
 <template>
 	<view class="dialogue">
 		<view class="picture">
-			<image src="@/static/pictures/avatar01.jpeg" mode="aspectFit"></image>
+			<image src="https://raw.githubusercontent.com/CoderWDD/myImages/main/blog_images/avatar01.jpeg" mode="aspectFit"></image>
 		</view>
 		<view class="message">
 			<view class="name">
@@ -22,9 +22,9 @@
 		name: "Dialogue",
 		data() {
 			return {
-
+				statusBarHeight: '',
 			};
-		}
+		},
 	}
 </script>
 
@@ -35,6 +35,9 @@
 		background-color: white;
 		text-align: center;
 	}
+	.status-bar{
+	    background: rgb(141, 71, 71);
+	 }
 	.picture {
 		float: left;
 		width: 70px;

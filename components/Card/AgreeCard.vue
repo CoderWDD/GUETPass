@@ -24,7 +24,6 @@
 </script>
 
 <style>
-@import url('@/pages/HuaJiangPage/PingFangSC_Regular.css');
 .container{
 	display: flex;
 	justify-content: center;
@@ -59,22 +58,14 @@
 .lienceText{
 	color: black;
 	text-align: center;
-	font-family: PingFangSCRegular;
 	font-weight: 500;
 	font-size: 30rpx;
-}
-
-.dropIcon{
-	float: right;
-	width:40px;
-	height:40px;
-	top: 0;
-	right: 0;
 }
 
 .zhiText{
 	margin-top: 0%;
 	margin-bottom: 20rpx;
+	font-size: 30rpx;
 }
 
 </style>

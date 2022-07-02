@@ -53,18 +53,14 @@
 			BottomCard
 		},
 		onLoad(option) {
-			let ori = option.substring(0,option.length - 1)
-			this.name = option.replace(ori,"*".repeat(option.length-1))
+
+			let ori = option.name.substring(0,option.name.length - 1);
+			this.name = option.name.replace(ori,"*".repeat(option.name.length-1));
 		}
 	}
 </script>
 
 <style>
-	
-@import url('@/pages/HuaJiangPage/PingFangSC_Regular.css');
-
-@import url('@/pages/HuaJiangPage/PingFangSC_Heavy.css');
-	
 page{
 	background-color: #09BA08;
 }
@@ -91,7 +87,6 @@ page{
 	display: flex;
 	justify-content: center;
 	color: white;
-	font-family: PingFangSCRegular;
 	font-size: 40rpx;
 }
 

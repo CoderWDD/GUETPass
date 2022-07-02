@@ -39,7 +39,7 @@
 					success:function(res){
 						console.log('条码类型' + res.scanType);
 						console.log('条码内容' + res.result);
-						if(res.result === 'wxp://f2f61yJcOA5TQY-YdVQ71J40b8DJbSuK2_DkjfefQQmWz57QgydbiAyZMbcyDfTkGK-5'){
+						if(res.result === 'https://yq.guet.edu.cn/s/tHB4C'){
 							uni.redirectTo({
 								url:'/pages/HuaJiangPage/HuaJiangPage?name=' + name
 							})

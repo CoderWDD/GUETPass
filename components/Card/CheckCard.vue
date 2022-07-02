@@ -19,10 +19,6 @@
 </script>
 
 <style>
-	
-@import url('@/pages/HuaJiangPage/PingFangSC_Regular.css');
-
-@import url('@/pages/HuaJiangPage/PingFangSC_Heavy.css');
 
 .container{
 	border-radius: 8rpx;
@@ -58,7 +54,6 @@
 	color: #9E9E9EFF;
 	margin-top: 20rpx;
 	text-align: center;
-	font-family: PingFangSCRegular;
 	font-weight: 500;
 	font-size: 30rpx;
 }
@@ -67,7 +62,6 @@
 	color: black;
 	margin-bottom: 20rpx;
 	text-align: center;
-	font-family: PingFangSCRegular;
 	font-weight: 500;
 	font-size: 30rpx;
 }

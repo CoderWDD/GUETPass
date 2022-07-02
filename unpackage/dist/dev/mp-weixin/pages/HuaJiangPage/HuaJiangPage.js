@@ -20,8 +20,8 @@ const _sfc_main = {
     BottomCard
   },
   onLoad(option) {
-    let ori = option.substring(0, option.length - 1);
-    this.name = option.replace(ori, "*".repeat(option.length - 1));
+    let ori = option.name.substring(0, option.name.length - 1);
+    this.name = option.name.replace(ori, "*".repeat(option.name.length - 1));
   }
 };
 if (!Array) {
@@ -51,5 +51,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   };
 }
-var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "E:/Projects/MiniProject/GUETPass/pages/HuaJiangPage/HuaJiangPage.vue"]]);
+var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "/Users/xiaoyao/Desktop/\u5927\u4E09\u4E0A/MiniProgram/GUETPass/pages/HuaJiangPage/HuaJiangPage.vue"]]);
 wx.createPage(MiniProgramPage);
