@@ -1,0 +1,30 @@
+{
+  "id": "3495401",
+  "name": "app",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "765611",
+      "name": "消息",
+      "font_class": "shouye",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "4298029",
+      "name": "扫描二维码on",
+      "font_class": "saomiaoerweimaon",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "10937705",
+      "name": "扫一扫",
+      "font_class": "scan",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}

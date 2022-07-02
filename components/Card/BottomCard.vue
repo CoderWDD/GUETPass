@@ -1,19 +1,24 @@
 <template>
 	<view class="container">
-		<button class="btn" @click="BackToHome">返回首页</button>
+		<button class="btn" @click="BackToHome()">返回首页</button>
 		<button class="btn">出行记录</button>
 	</view>
 </template>
 
 <script>
 	export default{
-		methods:[
-			function BackToHome(){
-				uni.redirectTo({
+		data(){
+			return{
+				
+			}
+		},
+		methods:{
+			BackToHome(){
+				uni.switchTab({
 					url:'/pages/HomePage/HomePage'
 				})
 			}
-		]
+		}
 	}
 </script>
 

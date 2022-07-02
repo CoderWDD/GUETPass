@@ -10,8 +10,8 @@
 					"buttons": [{
 						"float": "left",
 						"fontSize": "24px",
-						"fontSrc": "static/uni.ttf",
-						"text": "\ue612"
+						"fontSrc": "static/icons/iconfont.ttf",
+						"text": "\ue62b"
 					}]
 				}
 			}

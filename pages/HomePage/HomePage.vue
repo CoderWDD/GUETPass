@@ -1,8 +1,10 @@
 <template>
 	<view>
 		<view class="wx_nav">
-			<uni-icons type="scan" @click="Scan"></uni-icons>
-			<text>微信</text>
+			<view class="iconfont icon-scan wx_icon" @click="Scan()"></view>
+			<view class="wx_text">
+				<text>微信</text>
+			</view>
 		</view>
 		<view class="container">
 			<Dialogue></Dialogue>
@@ -30,7 +32,14 @@
 			return {
 				name:'',
 				show: true,
+				navigationBarHeight: 0,
 			}
+		},
+		onLoad() {
+			let sysInfo = wx.getSystemInfoSync();
+			let menuInfo = wx.getMenuButtonBoundingClientRect();
+			let navigationBarHeight = (menuInfo.top - sysInfo.statusBarHeight) * 2 + menuInfo.height;
+			this.navigationBarHeight = navigationBarHeight;
 		},
 		methods: {
 			Scan(){
@@ -56,6 +65,7 @@
 </script>
 
 <style>
+	@import url(@/static/icons/iconfont.css);
 .container{
 	display: flex;
 	flex-direction: column;
@@ -63,11 +73,20 @@
 }
 .wx_nav{
 	text-align: center;
-	height: 160rpx;
+	height: 200rpx;
 	width: 100%;
-	line-height: 160rpx;
+	line-height: 200rpx;
 	font-size: 13px;
 	display: flex;
-	justify-content: center;
+}
+
+.wx_icon{
+	margin-left: 8px;
+	margin-top: 20px;
+}
+
+.wx_text{
+	margin-left: 40%;
+	margin-top: 20px;
 }
 </style>

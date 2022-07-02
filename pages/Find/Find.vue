@@ -1,6 +1,19 @@
 <template>
 	<view>
-		
+		<view class="container">
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+			<Dialogue></Dialogue>
+		</view>
 	</view>
 </template>
 
