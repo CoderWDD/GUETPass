@@ -9,6 +9,9 @@ const _sfc_main = {
   data() {
     return {};
   },
+  props: [
+    "name"
+  ],
   methods: {},
   components: {
     PassCard,
@@ -29,7 +32,7 @@ if (!Array) {
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
     a: common_vendor.p({
-      name: "\u9EC4\u5B97\u6CFD"
+      name: "name"
     }),
     b: common_vendor.p({
       firstText: "\u6838\u9178\u68C0\u6D4B >",

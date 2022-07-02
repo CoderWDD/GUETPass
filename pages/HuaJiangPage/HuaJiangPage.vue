@@ -5,7 +5,7 @@
 			<text class="huajiangTitle">花江检查点</text>
 		</view>
 		<view>
-			<PassCard name="黄宗泽"></PassCard>
+			<PassCard name="name"></PassCard>
 		</view>
 		
 		<view>
@@ -42,6 +42,9 @@
 				
 			}
 		},
+		props:[
+			"name"
+		],
 		methods: {
 			
 		},
