@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "微信",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "dialogue": "../../components/Dialogue/Dialogue"
+  }
+}

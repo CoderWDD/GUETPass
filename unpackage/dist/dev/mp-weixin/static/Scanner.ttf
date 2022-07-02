@@ -1,0 +1,18 @@
+push graphic-context
+compliance "SVG"
+fill "black"
+fill-opacity 1
+stroke "none"
+stroke-width 1
+stroke-opacity 1
+fill-rule nonzero
+viewbox 0 0 768 768
+affine 1 0 0 1 0 0
+push graphic-context "icomoon-ignore"
+pop graphic-context
+push graphic-context
+fill "#000"
+class "path"
+path "M304.5 208.5v96h-96v-96h96zM352.5 160.5h-192v192h192v-192zM304.5 463.5v96h-96v-96h96zM352.5 415.5h-192v192h192v-192zM559.5 208.5v96h-96v-96h96zM607.5 160.5h-192v192h192v-192zM415.5 415.5h48v48h-48v-48zM463.5 463.5h48v48h-48v-48zM511.5 415.5h48v48h-48v-48zM415.5 511.5h48v48h-48v-48zM463.5 559.5h48v48h-48v-48zM511.5 511.5h48v48h-48v-48zM559.5 463.5h48v48h-48v-48zM559.5 559.5h48v48h-48v-48zM703.5 223.5h-63v-96h-96v-63h159v159zM703.5 703.5v-159h-63v96h-96v63h159zM64.5 703.5h159v-63h-96v-96h-63v159zM64.5 64.5v159h63v-96h96v-63h-159z"
+pop graphic-context
+pop graphic-context

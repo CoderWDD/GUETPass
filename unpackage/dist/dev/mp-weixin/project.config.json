@@ -23,20 +23,45 @@
     "useStaticServer": true,
     "showES6CompileOption": false,
     "checkInvalidKey": true,
+    "compileHotReLoad": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
     "disableUseStrict": false,
-    "useCompilerPlugins": false,
-    "minifyWXML": true
+    "useCompilerPlugins": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.24.7",
-  "appid": "touristappid",
+  "appid": "wxa78bb65a4b9f7c65",
   "projectname": "GUETPass",
-  "condition": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "微信",
+          "pathName": "pages/HomePage/HomePage",
+          "query": ""
+        },
+        {
+          "name": "通讯录",
+          "pathName": "pages/AddressBook/AddressBook",
+          "query": ""
+        },
+        {
+          "name": "发现",
+          "pathName": "pages/Find/Find",
+          "query": ""
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/Person/Person",
+          "query": ""
+        }
+      ]
+    }
+  },
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

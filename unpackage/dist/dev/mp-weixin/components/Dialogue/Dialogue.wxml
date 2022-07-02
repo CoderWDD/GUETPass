@@ -1,0 +1,1 @@
+<view class="dialogue"><view class="picture"><image src="{{a}}" mode="aspectFit"></image></view><view class="message"><view class="name"> 吴彦祖 </view><view class="time"> 晚上7:07 </view><view class="content"> 今晚吃什么 </view></view></view>
