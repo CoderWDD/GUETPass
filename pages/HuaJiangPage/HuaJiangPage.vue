@@ -5,7 +5,7 @@
 			<text class="huajiangTitle">花江检查点</text>
 		</view>
 		<view>
-			<PassCard name="name"></PassCard>
+			<PassCard :name="name"></PassCard>
 		</view>
 		
 		<view>
@@ -39,12 +39,9 @@
 	export default {
 		data() {
 			return {
-				
+				name:'彭于晏'
 			}
 		},
-		props:[
-			"name"
-		],
 		methods: {
 			
 		},
@@ -54,6 +51,10 @@
 			AntiScamCard,
 			AgreeCard,
 			BottomCard
+		},
+		onLoad(option) {
+			let ori = option.substring(0,option.length - 1)
+			this.name = option.replace(ori,"*".repeat(option.length-1))
 		}
 	}
 </script>

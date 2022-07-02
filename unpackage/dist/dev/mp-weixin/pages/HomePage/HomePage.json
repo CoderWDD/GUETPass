@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "微信",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "dialogue": "../../components/Dialogue/Dialogue"
-  }
-}

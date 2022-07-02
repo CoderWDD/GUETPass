@@ -1,6 +1,19 @@
 <template>
 	<view class="dialogue">
-
+		<view class="picture">
+			<image src="@/static/pictures/avatar01.jpeg" mode="aspectFit"></image>
+		</view>
+		<view class="message">
+			<view class="name">
+				吴彦祖
+			</view>
+			<view class="time">
+				晚上7:07
+			</view>
+			<view class="content">
+				今晚吃什么
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -17,21 +30,54 @@
 
 <style>
 	.dialogue {
-		position: relative;
 		height: 70px;
 		width: auto;
 		background-color: white;
 		text-align: center;
 	}
-
-	.dialogue::after {
-		content: '';
+	.picture {
+		float: left;
+		width: 70px;
+		height: 70px;
+	}
+	image{
+		width: 50px;
+		height: 50px;
+		border-radius: 10px;
+		margin-top: 10px;
+	}
+	.message {
+		height: 70px;
+		position: relative;
+		left: 70px;
+		width: 100%;
+	}
+	.message::after {
+		content: ' ';
 		position: absolute;
-		left: 20%;
-		top: 69px;
-		right: auto;
-		height: 2px;
-		width: 80%;
 		background-color: gainsboro;
+		height: 1px;
+		width: 100%;
+		left: 0px;
+		top:69px;
+	}
+	.message>.name {
+		position: absolute;
+		left: 10px;
+		top: 12px;
+	}
+	.message>.time {
+		position: absolute;
+		right: 90px;
+		top: 8px;
+		font-size: 12px;
+		color: gray;
+	}
+	.message>.content {
+		position: absolute;
+		left: 10px;
+		bottom: 12px;
+		font-size: 12px;
+		color: gray;
 	}
 </style>
