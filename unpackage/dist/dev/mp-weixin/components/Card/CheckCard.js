@@ -16,5 +16,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     d: common_vendor.t($props.thirdText)
   };
 }
-var Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "F:/Projects/UniappProjects/GUETPass/components/Card/CheckCard.vue"]]);
+var Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "E:/Projects/MiniProject/GUETPass/components/Card/CheckCard.vue"]]);
 wx.createComponent(Component);

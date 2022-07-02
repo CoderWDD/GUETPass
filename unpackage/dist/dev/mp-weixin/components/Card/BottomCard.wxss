@@ -1,0 +1,16 @@
+
+.container{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	bottom: 0;
+	background-color: white;
+	height: 100%;
+}
+.btn{
+	height: -webkit-fit-content;
+	height: fit-content;
+	width: 40%;
+	margin-top: 3%;
+	font-size: 30rpx;
+}

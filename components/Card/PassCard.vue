@@ -7,6 +7,7 @@
 </template>
 
 <script>
+	import moment from 'moment'
 	export default{
 		props:[
 			'name'
@@ -15,7 +16,18 @@
 			return{
 				time: "asasdd",
 			}
-		}
+		},
+		created() {
+
+		},
+		mounted() {
+			setInterval(()=>{
+				this.time = moment().format('HH:mm:ss:SS')
+			},10)
+		},
+		methods:[
+			
+		]
 	}
 	
 </script>
@@ -63,6 +75,4 @@
 	font-weight: 400;
 	font-family: PingFangSCHeavy;
 }
-
-
 </style>

@@ -8,7 +8,15 @@ const _sfc_main = {
     return {
       time: "asasdd"
     };
-  }
+  },
+  created() {
+  },
+  mounted() {
+    setInterval(() => {
+      this.time = common_vendor.hooks().format("HH:mm:ss:SS");
+    }, 10);
+  },
+  methods: []
 };
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
@@ -16,5 +24,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     b: common_vendor.t($props.name)
   };
 }
-var Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "F:/Projects/UniappProjects/GUETPass/components/Card/PassCard.vue"]]);
+var Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "E:/Projects/MiniProject/GUETPass/components/Card/PassCard.vue"]]);
 wx.createComponent(Component);

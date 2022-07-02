@@ -8,7 +8,7 @@ if (!Math) {
   "./pages/HuaJiangPage/HuaJiangPage.js";
 }
 const _sfc_main = {};
-var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "F:/Projects/UniappProjects/GUETPass/App.vue"]]);
+var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "E:/Projects/MiniProject/GUETPass/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
   return {
