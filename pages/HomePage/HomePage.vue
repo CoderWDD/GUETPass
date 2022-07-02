@@ -18,6 +18,9 @@
 			<Dialogue></Dialogue>
 			<Dialogue></Dialogue>
 		</view>
+		<modal v-if="show" title="输入名字" confirm-text="确定" @confirm="confirm"> 
+			<input type='text' placeholder="请输入名字" v-model="name" />
+		</modal>
 	</view>
 </template>
 
@@ -25,35 +28,30 @@
 	export default {
 		data() {
 			return {
-				item: []
+				name:'',
+				show: true,
 			}
 		},
 		methods: {
 			Scan(){
+				let name = this.name;
 				uni.scanCode({
 					success:function(res){
 						console.log('条码类型' + res.scanType);
 						console.log('条码内容' + res.result);
 						if(res.result === 'wxp://f2f61yJcOA5TQY-YdVQ71J40b8DJbSuK2_DkjfefQQmWz57QgydbiAyZMbcyDfTkGK-5'){
-							uni.switchTab({
-								url:'/pages/AddressBook/AddressBook'
+							uni.redirectTo({
+								url:'/pages/HuaJiangPage/HuaJiangPage?name=' + name
 							})
 						}
 					}
 				})
+			},
+			confirm() {
+				console.log(this.name);
+				this.show = false;
 			}
 		},
-		onNavigationBarButtonTap(e) {
-			console.log(e);
-			if(e.float == "left"){
-				uni.scanCode({
-					success:function(res){
-						console.log('条码类型' + res.scanType);
-						console.log('条码内容' + res.result);
-					}
-				})
-			}
-		}
 	}
 </script>
 
