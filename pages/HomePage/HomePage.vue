@@ -48,9 +48,13 @@
 					success:function(res){
 						console.log('条码类型' + res.scanType);
 						console.log('条码内容' + res.result);
-						if(res.result === 'https://yq.guet.edu.cn/s/tHB4C' || res.result === 'https://yq.guet.edu.cn/s/JbNTR' || res.result === 'https://yq.guet.edu.cn/s/1M20D7'){
+						if(res.result === 'https://yq.guet.edu.cn/s/tHB4C' || res.result === 'https://yq.guet.edu.cn/s/JbNTR'){
 							uni.redirectTo({
 								url:'/pages/HuaJiangPage/HuaJiangPage?name=' + name
+							})
+						}else if (res.result === 'https://yq.guet.edu.cn/s/1M20D7'){
+							uni.redirectTo({
+								url:'/pages/HoujiePage/HoujiePage?name=' + name
 							})
 						}
 					}

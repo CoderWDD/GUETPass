@@ -42,7 +42,17 @@
 			"enablePullDownRefresh": false,
 			"navigationStyle": "custom"
 		}
-	}],
+	}    ,{
+            "path" : "pages/HoujiePage/HoujiePage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
