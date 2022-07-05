@@ -25,9 +25,8 @@
 	display: flex;
 	flex-direction: column;
 	background-color: white;
-	margin: 0rpx 10rpx;
 	width: 340rpx;
-	height: 280rpx;
+	height: 300rpx;
 }
 
 .firstText{
