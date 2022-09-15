@@ -9,17 +9,6 @@
 		</view>
 		
 		<view>
-			<view class="rowCard">
-				<view class="firstCard">
-					<CheckCar firstText='核酸检测 >' secondText='近48小时无核酸记录' thirdText='近4天未检测' iconUrl='/static/test-tube.png'></CheckCar>
-				</view>
-				<view class="secondCard">
-					<CheckCar firstText='行程记录 >' secondText='未核验行程卡' thirdText='近4天未核验' iconUrl='/static/location-history.png'></CheckCar>
-				</view>
-			</view>
-		</view>
-		
-		<view>
 			<AntiScamCard></AntiScamCard>
 		</view>
 		

@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<text class="time">{{time}}</text>
-		<text class="lienceText">桂电学生临时通行证（备案制）</text>
+		<text class="lienceText">桂电学生临时通行证</text>
 		<text class="nameText">{{name}} 可以通行</text>
 	</view>
 </template>
@@ -51,7 +51,8 @@
 	margin-top: 15rpx;
 	color: #14B710;
 	font-size: 48rpx;
-	font-weight: 400;
+	font-weight: 700;
+	line-height: 72rpx;
 }
 
 .lienceText{
@@ -59,13 +60,15 @@
 	color: #14B710;
 	font-size: 48rpx;
 	font-weight: 700;
+	line-height: 72rpx;
 }
 
 .nameText{
 	margin-top: 10rpx;
 	margin-bottom: 15rpx;
-	color: green;
+	color: darkgreen;
 	font-size: 40rpx;
-	font-weight: 400;
+	font-weight: 700;
+	line-height: 72rpx;
 }
 </style>

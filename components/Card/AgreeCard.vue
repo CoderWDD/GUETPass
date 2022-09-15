@@ -2,9 +2,9 @@
 	<view class="container">
 		<view class="textContainer">
 			<text class="agreeText">已同意</text>
-			<text class="lienceText">桂电学生桂电学生临时通行证（备案  </text>
+			<text class="lienceText">桂电学生桂电学生临时通行证  </text>
 		</view>
-		<text class="zhiText">制）</text>
+		<!-- <text class="zhiText">制）</text> -->
 	</view>
 
 </template>
@@ -16,7 +16,7 @@
 				value: 0,
 				selectContents: [{
 						value: 0,
-						text: "桂电学生桂电学生临时通行证s（备案制）"
+						text: "桂电学生桂电学生临时通行证"
 					},
 					{
 						value: 1,
@@ -40,10 +40,11 @@
 		margin-top: 3%;
 		margin-left: 3%;
 		margin-right: 3%;
+		line-height: 100rpx;
 	}
 
 	.textContainer {
-		margin-top: 20rpx;
+		/* margin-top: 20rpx; */
 		flex-direction: row;
 		justify-content: center;
 		text-align: center;
@@ -92,14 +93,14 @@
 
 	.lienceText::before {
 		top: 9rpx;
-		left: 480rpx;
+		left: 450rpx;
 		border-left-color: #85888b;
 		transform: rotate(90deg);
 	}
 
 	.lienceText::after {
 		top: 6rpx;
-		left: 480rpx;
+		left: 450rpx;
 		border-left-color:white;
 		transform: rotate(90deg);
 	}
@@ -108,5 +109,6 @@
 		margin-top: 0%;
 		margin-bottom: 20rpx;
 		font-size: 30rpx;
+		line-height: 50rpx;
 	}
 </style>

@@ -28,6 +28,7 @@
 	color: white;
 	text-align: center;
 	font-weight: 700;
+	font-size: 45rpx;
 }
 
 .lineTwo{
@@ -36,6 +37,7 @@
 	text-align: center;
 	font-size: 35rpx;
 	font-weight: 500;
+	margin-bottom: 20rpx;
 }
 
 </style>
